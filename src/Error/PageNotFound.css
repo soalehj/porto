@@ -1,0 +1,92 @@
+.PageNotFound {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-page-not-found {
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+
+.header-notfound-page {
+  background-color: #598392;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  border-radius: 15px;
+}
+
+.content-header {
+  padding: 20px;
+  margin: 30px 40px;
+}
+
+.header-notfound-page h2 {
+  font-family: "Noticia Text", serif;
+  color: white;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.header-notfound-page span {
+  font-family: "Heebo", sans-serif;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.header-notfound-page .Social-media {
+  display: flex;
+  gap: 10px;
+}
+
+.PageNotFound .ImgNotFound {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.btn-go-home {
+  margin-top: 20px;
+  background-color: #ffff;
+  color: #598392;
+  padding: 0.5em 0.8em 0.5em 0.8em;
+  position: relative;
+  border-radius: 50px;
+  border: none;
+  display: flex;
+  align-items: center;
+  transition: 0.2s ease-in-out;
+  border: 5px double #598392;
+  gap: 5px;
+}
+
+.btn-go-home:hover {
+  margin-top: 20px;
+  background-color: #598392;
+  padding: 0.5em 0.8em 0.5em 0.8em;
+  position: relative;
+  border-radius: 50px;
+  border: none;
+  display: flex;
+  align-items: center;
+  transition: 0.2s ease-in-out;
+  color: white;
+  border: 5px double #ffff;
+}
+
+.content-btn-home {
+  text-decoration: none;
+}
+
+.btn-go-home path {
+  stroke: #598392;
+}
+
+.btn-go-home:hover path {
+  stroke: #ffff;
+}

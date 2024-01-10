@@ -1,0 +1,163 @@
+.section-intro {
+  margin-bottom: 60px;
+}
+
+.intro-about {
+  display: flex;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+}
+
+.intro {
+  writing-mode: vertical-lr;
+  padding: 5px;
+}
+
+.service-about {
+  margin-bottom: 60px;
+}
+.header-about p {
+  text-align: justify;
+}
+
+.content-about {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.service-about {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.ui-ux {
+  position: relative;
+  height: 200px;
+  width: 350px;
+  padding: 1rem 2rem 1rem 2rem;
+  background-image: url(../Asset/uiux.jpg);
+  background-size: cover;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+.ui-ux::before {
+  position: absolute;
+  content: "";
+  padding: 1rem 2rem 1rem 2rem;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.244);
+  background-size: cover;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ui-ux h5 {
+  color: white;
+  z-index: 1;
+}
+
+.ui-ux p {
+  color: white;
+  z-index: 1;
+}
+
+.front-end {
+  position: relative;
+  height: 200px;
+  width: 350px;
+  padding: 1rem 2rem 1rem 2rem;
+  background-image: url(../Asset/frontend.jpg);
+  background-size: cover;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+.front-end::before {
+  position: absolute;
+  content: "";
+  padding: 1rem 2rem 1rem 2rem;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.244);
+  background-size: cover;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.front-end h5 {
+  color: white;
+  z-index: 1;
+}
+
+.front-end p {
+  color: white;
+  z-index: 1;
+}
+
+.section-experiance {
+  margin-bottom: 60px;
+}
+.experiance {
+  text-align: justify;
+}
+.work-experiance {
+  margin-top: 30px;
+}
+.work-experiance .header {
+  margin: 20px 0px;
+  align-items: flex-start;
+}
+
+.work-experiance .detail-experiance {
+  margin: 20px 0px;
+}
+
+.section-passion {
+  margin-bottom: 60px;
+}
+.passion-about {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.passion {
+  writing-mode: vertical-lr;
+}
+
+.detail-passion {
+  justify-content: space-around;
+}
+
+.header-passion-area {
+  margin-bottom: 10px;
+}
+
+.content-about-passion {
+  padding: 0px 5px;
+  margin: 0;
+}
+
+.passion-items {
+  display: flex;
+  justify-content: space-around;
+}

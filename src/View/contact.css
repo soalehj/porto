@@ -1,0 +1,108 @@
+.ContactPage {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+}
+
+.ContentPage {
+  height: 80vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.Header-Contact {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #598392;
+  border-radius: 15px;
+}
+
+.social-media-contact {
+  margin-top: 20px;
+}
+
+.social-media-contact p {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+/* form contact */
+
+.Inputan {
+  position: relative;
+  margin: 10px;
+}
+
+.Input {
+  border: solid 1.5px #598392;
+  border-radius: 1rem;
+  background: none;
+  width: 350px;
+  padding: 1rem;
+  font-size: 1rem;
+  color: #598392;
+  transition: border 150ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.UserLabel {
+  position: absolute;
+  left: 15px;
+  color: #598392;
+  pointer-events: none;
+  transform: translateY(1rem);
+  transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.Input:focus {
+  outline: none;
+  border: 1.5px solid #598392;
+}
+
+.Input:valid {
+  outline: none;
+  border: 1.5px solid #598392;
+}
+.Input:focus ~ label {
+  transform: translateY(-50%) scale(0.8);
+  background-color: #ffff;
+  padding: 0 0.2em;
+  color: #598392;
+}
+
+.Input:valid ~ label {
+  transform: translateY(-50%) scale(0.8);
+  background-color: #ffff;
+  padding: 0 0.2em;
+  color: #598392;
+}
+
+textarea.Input {
+  height: 200px;
+  width: 100%;
+  resize: none;
+}
+
+.Inputan .btn {
+  background-color: #598392;
+  padding: 0.5rem 0.9rem 0.5rem 0.9rem;
+  color: #ffff;
+  border: 5px double #ffff;
+  width: 150px;
+  border-radius: 50px;
+}
+
+.Inputan .btn:hover {
+  background-color: #ffff;
+  padding: 0.5rem 0.9rem 0.5rem 0.9rem;
+  color: #598392;
+  border: 5px double #598392;
+  width: 150px;
+  border-radius: 50px;
+}
+
+/* end form contact */
